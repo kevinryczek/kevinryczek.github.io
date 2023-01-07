@@ -181,14 +181,8 @@ img {
 }
 
 /*HOME*/
-.home {
-  position: relative;
-  row-gap: 5rem;
-  padding: 4rem 0 5rem;
-}
-
 .home__data {
-  align-self: center;
+  text-align: center;
 }
 
 .home__data a {
@@ -419,10 +413,6 @@ img {
     flex-direction: column;
   }
 
-  .home__title {
-    text-align: center;
-  }
-
   .home__data a {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -460,26 +450,6 @@ img {
 
   .box2 {
     display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .home__data {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .home__title {
-    text-align: center;
-  }
-
-  .home__data a {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  .button {
-    text-align: center;
   }
 }
 
